@@ -26,8 +26,8 @@ License
 WeatherApp is created by us, which means you are free to use, modify, and distribute the code in accordance with the terms of the license.
 
 #Authors 
-Luka Korok Kurolukakorokkuro72334@gmail.com 
-Jack Kuel Mazier Lham jackkuelmazierlham@gmail.com
+Luka Korok Kuro <lukakorokkuro72334@gmail.com> 
+Jack Kuel Mazier Lham <jackkuelmazierlham@gmail.com>
 
 Acknowledgements
 We would love to appreciate Alx_Africa for everything. SE Course made all this possible.

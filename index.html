@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!-- Coding By Luka Korok Kuro- <lukakorokkuro72334@gamil.com> -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather updates</title>
+  <!-- Linking Google fonts for icons -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <!-- Link to the css stylesheet -->
+  <link rel="stylesheet" href="assets/styles/style.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Search section -->
+    <div class="search-section">
+      <div class="input-wrapper">
+        <span class="material-symbols-rounded">search</span>
+        <input type="search" placeholder="Enter a city name" class="search-input">
+      </div>
+      <button class="location-button">
+        <span class="material-symbols-rounded">my_location</span>
+      </button>
+    </div>
+
+    <!-- No results message -->
+    <div class="no-results">
+      <img src="./assets/images/icons/no-result.svg" alt="No results found" class="icon">
+      <h3 class="title">Something went wrong!</h3>
+      <p class="message">We're unable to retrieve the weather details. Ensure you've entered a valid city or try again later.</p>
+    </div>
+
+    <!-- Container for displaying weather data -->
+    <div class="weather-section">
+      <div class="current-weather">
+        <img src="./assets/images/icons/no-result.svg" class="weather-icon">
+        <div class="location-info">
+          <h2 class="city-name">City Name</h2>
+          <!--<img src="" class="country-flag" alt="Country Flag"> -->
+        </div>
+        <h2 class="temperature">00<span>°C</span></h2>
+        <h5 class="description">Weather description</h5>
+      </div>
+
+      <div class="parameter-container">
+        <!--card 1-->
+        <div class="parameter">
+          <img src="./assets/images/wind.png" >
+          <p>Windspeed</p>
+          <p data-windspeed>0 m/s</p>
+        </div>
+
+        <!--card 2-->
+        <div class="parameter">
+          <img src="./assets/images/humidity.png" >
+          <p>Humidity</p>
+          <p data-humidity>0%</p>
+        </div>
+
+        <!--card 3-->
+        <div class="parameter">
+          <img src="./assets/images/cloud.png" >
+          <p>Clouds</p>
+          <p data-cloudiness>0%</p>
+        </div>
+
+      </div>
+
+      <!-- Hourly weather forecast list -->
+      <div class="hourly-weather">
+        <ul class="weather-list"></ul>
+      </div>
+    </div>
+  </div>
+
+  <script src="./assets/scripts/script.js"></script>
+</body>
+</html>
